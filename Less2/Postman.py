@@ -1,3 +1,8 @@
+from itertools import permutations
+
+
+coord = [[0, 2], [2, 5], [5, 2], [6, 6], [8, 3]]
+
 amount = len(coord)
 maxel = coord[0][0]
 minel = coord[0][0]
