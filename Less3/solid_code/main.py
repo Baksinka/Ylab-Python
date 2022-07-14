@@ -1,7 +1,7 @@
 from typing import Union
 
 from alert import TV, Alert
-from heroes import SuperHero, Superman
+from heroes import ChackNorris, SuperHero, Superman
 from places import Kostroma, Tokyo
 
 
@@ -16,4 +16,4 @@ def save_the_place(hero: SuperHero, place: Union[Kostroma, Tokyo], alert: Alert)
 if __name__ == '__main__':
     save_the_place(Superman(), Kostroma(), TV())
     print('-' * 20)
-    save_the_place(SuperHero('Chack Norris', False), Tokyo(), TV())
+    save_the_place(ChackNorris(), Tokyo(), TV())
