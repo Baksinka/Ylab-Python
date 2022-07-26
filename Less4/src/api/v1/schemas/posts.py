@@ -15,7 +15,7 @@ class PostBase(BaseModel):
 
 
 class PostCreate(PostBase):
-    ...
+    access_token: str
 
 
 class PostModel(PostBase):
